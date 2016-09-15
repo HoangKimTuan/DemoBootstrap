@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href=".\public\css\bootstrap.min.css" />
+  <!--
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   -->
+   <style type="text/css">
+     .font{
+      font-size: 12px;
+     }
+     .border{
+      border: 1px solid #E1DBDB;
+      margin-top: 20px;
+     }
+   </style>
+</head>
+<body>
+	<script type="text/javascript" src=".\public\js\jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src=".\public\js\bootstrap.min.js"></script>
+	<div class="container-fluid">
+    <div class="row well">
+      <div class="col-sm-1"><a href="#">Sách</a></div>
+      <div class="col-sm-8"></div>
+      <div class="col-sm-1 font"><span class="glyphicon glyphicon-shopping-cart"></span><a href="#"> Giỏ Hàng</a></div>
+      <div class="col-sm-1 font"><span class="glyphicon glyphicon-user"></span><a href="#"> Hoàng Kim Tuấn</a></div>
+      <div class="col-sm-1 font"><span class="glyphicon glyphicon-log-out"></span><a href="#"> Đăng xuất</a></div>
+    </div> 
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4"><img src="./Images/giohang.png" class="img-rounded" alt="Ở đây chứa hình ảnh rất đẹp. Tội nghiệp cho những ai không được thấy!!!" width="304" height="236"></div>
+        <div class="col-sm-4"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-9">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Sản phẩm trong giỏ hàng</th>
+                <th style="width: 50%;">Tên sách</th>
+                <th>Tác giả</th>
+                <th>Giá sách</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="./Images/nhagiakim.jpg" class="img-rounded" alt="Nhà giả kim" width="100%"></td>
+                <td>Nhà giả kim</br>Tiểu thuyết Nhà giả kim của Paulo Coelho như một câu truyện cổ tích giản dị, nhân ái, giàu...</td>
+                <td>Paulo Coelho</td>
+                <td>41300.0đ</td>
+              </tr>
+              <tr>
+                <td><img src="./Images/xstk.jpg" class="img-rounded" alt="Xác suất thống kê" width="100%"></td>
+                <td>Xác suất thống kê</br>Những kiến thức cơ bản về xác suất thống kê và ứng dụng cơ bản của chúng trong đời sống</td>
+                <td>Nguyễn Quyết</td>
+                <td>77000.0đ</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-sm-3">
+          <table class="table border">
+            <tbody>
+              <tr>
+                <td>Tổng số lượng: </td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Thành tiền: </td>
+                <td>118300.0đ</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <button type="submit" class="btn btn-danger btn-block">Thanh toán</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

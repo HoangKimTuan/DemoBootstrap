@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href=".\public\css\bootstrap.min.css" />
+  <!--
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   -->
+   <style type="text/css">
+     .font{
+      font-size: 12px;
+     }
+     .content{
+      text-align: center; 
+     }
+     .text{
+      color: blue;
+      font-size: 16px;
+     }
+   </style>
+</head>
+<body>
+	<script type="text/javascript" src=".\public\js\jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src=".\public\js\bootstrap.min.js"></script>
+	<div class="container-fluid">
+    <div class="row well">
+      <div class="col-sm-1"><a href="#">Sách</a></div>
+      <div class="col-sm-8"></div>
+      <div class="col-sm-1 font"><span class="glyphicon glyphicon-shopping-cart"></span><a href="#"> Giỏ Hàng</a></div>
+      <div class="col-sm-1 font"><span class="glyphicon glyphicon-user"></span><a href="#"> Đăng nhập</a></div>
+      <div class="col-sm-1 font"><span class="glyphicon glyphicon-log-in"></span><a href="#"> Đăng ký</a></div>
+    </div> 
+
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#tatca" data-toggle="tab">Tất cả</a></li>
+        <li><a href="#laptrinh" data-toggle="tab">Lập Trình</a></li>
+        <li><a href="#toanhoc" data-toggle="tab">Toán học</a></li>
+        <li><a href="#khoahoc" data-toggle="tab">Khoa học</a></li>
+        <li><a href="#truyendoc" data-toggle="tab">Truyện đọc</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="tatca">
+          <div class="row">
+            </br>
+
+            <div class="col-sm-3" style="padding: 0 10px !important">
+              <div class="panel panel-default">
+                <div class="panel-body content">
+                  <img src="./Images/nhagiakim.jpg" class="img-rounded" alt="Nhà giả kim" width="80%" height="300px">
+                  <div><span class="text">Nhà giả kim</span></div>
+                  <div>Paulo Coelho</div>
+                  <div>77000.0₫</div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-1 col-sm-10">
+                      <button type="submit" class="btn btn-default btn-block"><span class="glyphicon glyphicon-shopping-cart"></span>Cho vào giỏ hàng</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3" style="padding: 0 10px !important">
+              <div class="panel panel-default">
+                <div class="panel-body content">
+                  <img src="./Images/tonybuoisang.jpg" class="img-rounded" alt="Tony buổi sáng" width="80%" height="300px">
+                  <div><span class="text">Tony Buổi Sáng</span></div>
+                  <div>Tony Buổi Sáng</div>
+                  <div>52.500₫</div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-1 col-sm-10">
+                      <button type="submit" class="btn btn-default btn-block"><span class="glyphicon glyphicon-shopping-cart"></span>Cho vào giỏ hàng</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3" style="padding: 0 10px !important">
+              <div class="panel panel-default">
+                <div class="panel-body content">
+                  <img src="./Images/laptrinhphp.png" class="img-rounded" alt="Lập Trình Cơ Bản PHP Và MySQL" width="80%" height="300px">
+                  <div><span class="text">Lập Trình PHP Và MySQL</span></div>
+                  <div>Joel Murach - Ray Harris</div>
+                  <div>143.000₫</div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-1 col-sm-10">
+                      <button type="submit" class="btn btn-default btn-block"><span class="glyphicon glyphicon-shopping-cart"></span>Cho vào giỏ hàng</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3" style="padding: 0 10px !important">
+              <div class="panel panel-default">
+                <div class="panel-body content">
+                  <img src="./Images/tuhoclaptrinh.jpg" class="img-rounded" alt="Tự Học Lập Trình Visual C++ 6.0" width="80%" height="300px">
+                  <div><span class="text">Tự Học Lập Trình Visual C++ 6.0</span></div>
+                  <div> Đậu Quang Tuấn</div>
+                  <div>34.000₫</div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-1 col-sm-10">
+                      <button type="submit" class="btn btn-default btn-block"><span class="glyphicon glyphicon-shopping-cart"></span>Cho vào giỏ hàng</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="tab-pane" id="laptrinh">B</div>
+
+        <div class="tab-pane" id="toanhoc">C</div>
+
+        <div class="tab-pane" id="khoahoc">D</div>
+
+        <div class="tab-pane" id="truyendoc">E</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
